@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/form/display_page.dart';
+import 'package:myapp/pages/form/display_page.dart';
 import 'package:intl/intl.dart';
 
 class FormPage extends StatefulWidget {
@@ -126,7 +126,7 @@ class _FormPageState extends State<FormPage> {
                         ),
                       ),
                       value: _selectedReligion,
-                      items: ["Islam", "Christian", "Hindu", "Buddhist"]
+                      items: ["Islam", "Krister", "Hindu", "Buddha"]
                           .map<DropdownMenuItem<String>>((String value) {
                         return DropdownMenuItem<String>(
                           value: value,
